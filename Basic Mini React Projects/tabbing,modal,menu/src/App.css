@@ -1,0 +1,105 @@
+
+.heading{
+  color:red !important;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.res{
+  position: fixed;
+  position: relative;
+}
+.menu{
+  width: 30%;
+  background-color: yellow;
+  color: black;
+  list-style: none;
+  height: 100vh;
+  position: fixed;
+  left: -100%;
+  padding-top: 100px;
+  text-align: left;
+  transition: 0.9s;
+}
+.activemenu{
+  left: 0%;
+}
+.menu>ul>li{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.micon{
+  margin-top: 20px;
+   position: absolute; 
+   right: 20px;
+   padding: 5px 15px;
+   font-size: large;
+}
+.modalOverlay{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0,0,0.5);
+  position: fixed;
+  display: none;
+}
+.showOverlay{
+  display: block;
+}
+.modalDiv{
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  margin: auto;
+  align-self: center;
+  position: fixed;
+  left: 43%;
+  padding: 10px;
+  top: -500px;
+  transition: 0.5s;
+  
+}
+.showmodalDiv{
+   top:300px
+}
+.btn{
+  font-size: 1rem;
+  position: fixed;
+  right: 0px;
+  padding: 1rem !important;
+  border-radius: 10px !important;
+  background-color: blue !important;
+  color: white !important;
+  transform: rotate(-90deg);
+  top: 200px;
+}
+.modalDiv span{
+  cursor: pointer;
+}
+
+.tabsOuter ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.tabsOuter{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+ 
+}
+.tabsOuter button{
+  border: none;
+  background-color: aliceblue;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  
+}
+.activebutton{
+  background-color: blue !important;
+  color: white !important;
+}
